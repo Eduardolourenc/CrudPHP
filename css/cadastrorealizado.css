@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.header {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.listados {
+    color: #0f0f0f;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.listados:hover {
+    text-decoration: none;
+    background-color: #e0e0e0;
+    color: black;
+}

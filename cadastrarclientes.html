@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="css/style.css?v=1.0">
+</head>
+<body>
+    
+    <div class="container">
+        <form action="cadastrar.php" method="POST">    
+            <fieldset class="header"><legend class="legenda"> <b> Cadastrar de Clientes </b></legend></fieldset>
+            <br>
+            <div class="nome_completo">
+                <input type="text" name="nome" id="nome" class="input_usuario" required>
+                <label for="nome" class="input_label">Nome Completo</label>
+            </div>
+            <br><br>
+            <div class="nome_completo">
+                <input type="tel" name="telefone" id="telefone" class="input_usuario" required>
+                <label for="telefone" class="input_label">Telefone</label>
+            </div>
+            <br><br>
+            <input type="submit" name="botao" id="botao">
+        </form>
+        
+        <a href="listarclientes.php" class="listados">Clique aqui para ver os clientes listados</a>
+        <a href="telainicial.html" class="telainicial">Voltar a tela inicial</a>
+    </div>
+</body>
+</html>

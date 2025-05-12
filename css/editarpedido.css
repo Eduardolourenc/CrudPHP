@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 18px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 350px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    border: 3px solid rgba(15, 138, 240, 0.719);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.legenda {
+    border: 1px solid rgba(34, 83, 189, 0.685);
+    text-align: center;
+    background-color: rgba(34, 83, 189, 0.685);
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nome_completo {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input_usuario {
+    background: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: rgb(241, 239, 239);
+    font-size: 14px;
+    width: 100%; 
+    padding: 8px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease-in-out;
+}
+
+.fodase{
+    background-color: black;
+}
+.input_usuario:focus {
+    border-color: rgba(34, 83, 189, 0.685);
+}
+
+.input_label {
+    position: absolute;
+    pointer-events: none;
+    top: -20px;
+    left: 10px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 0 0px;
+    transition: 0.3s ease-in-out;
+}
+
+#data_pedido,
+#endereco_entrega {
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    outline: none;
+    width: 100%; 
+    box-sizing: border-box;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+#botao {
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    width: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#botao:hover {
+    background-color: rgba(20, 220, 37, 0.877);
+}
+
+.listados, .telainicial {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(73, 65, 197, 0.308);
+    border-radius: 20px;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.listados:hover, .telainicial:hover {
+    background-color: rgba(34, 83, 189, 0.685);
+    text-decoration: underline;
+}
+
+#usuario_id {
+    background: none;
+    color: white; 
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    appearance: none; 
+}
+
+
+#usuario_id option {
+    background-color: black; 
+    color: white; 
+}
+
+
+#usuario_id:focus {
+    outline: none;
+    border-color: rgba(34, 83, 189, 0.685); 
+}
+
+
+#usuario_id:hover {
+    cursor: pointer;
+    background-color: rgba(34, 83, 189, 0.3); 
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+
+        .voltar-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .voltar-btn:hover {
+            background-color: #5a6268;
+        }
+        .error-message {
+            color: #dc3545;
+            margin-bottom: 15px;
+        }
+  

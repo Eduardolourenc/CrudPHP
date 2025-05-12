@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 18px;
+    color: white;
+    padding: 14px;
+    text-align: center;
+}
+
+.header {
+    border: 3px solid rgba(15, 138, 240, 0.719);
+}
+
+.legenda {
+    border: 1px solid rgba(34, 83, 189, 0.685);
+    text-align: center;
+    background-color: rgba(34, 83, 189, 0.685);
+    padding: 11px;
+
+    border-radius: 5px;
+}
+
+.nome_completo {
+    position: relative;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.input_usuario {
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+}
+
+.input_usuario:focus ~ .input_label, .input_usuario:valid ~ .input_label{
+    top: -20px;
+    font-size: 11px;
+    color: rgba(34, 83, 189, 0.685);
+}
+
+.input_label{
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+#data_pedido{
+    border: nome;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#botao{
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    width: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    padding: 14px;
+    border: none;
+}
+
+#botao:hover{
+    background-image: linear-gradient(rgba(20, 220, 37, 0.877));
+}
+
+.listados{
+    display: block;
+    text-align: center;
+    margin-top: 20px; 
+    color: #fff; 
+    text-decoration: none;
+    background-color: rgba(73, 65, 197, 0.308);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.listados:hover{
+    text-decoration: underline;
+}
+
+.telainicial{
+    display: block;
+    text-align: center;
+    margin-top: 20px; 
+    color: #fff; 
+    text-decoration: none;
+    background-color: rgba(73, 65, 197, 0.308);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.telainicial:hover{
+    text-decoration: underline;
+}
